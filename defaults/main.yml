@@ -1,2 +1,4 @@
 ---
 codename: "{{ ansible_distribution_release }}"
+
+nfs_server: true

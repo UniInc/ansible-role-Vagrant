@@ -1,3 +1,6 @@
 ---
 
 - include_tasks: '{{ ansible_distribution }}/main.yml'
+
+- include_tasks: 'NFS server/main.yml'
+  when: nfs_server
